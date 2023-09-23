@@ -1,0 +1,42 @@
+INFO 2023-09-23 08:42:51,004 autoreload 1784 9988 Watching for file changes with StatReloader
+INFO 2023-09-23 08:42:53,737 basehttp 1784 24268 "GET / HTTP/1.1" 200 13
+INFO 2023-09-23 08:42:59,543 basehttp 1784 24268 "GET /about/ HTTP/1.1" 200 8
+INFO 2023-09-23 08:53:43,925 autoreload 1784 9988 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 08:53:45,261 autoreload 13532 24180 Watching for file changes with StatReloader
+INFO 2023-09-23 08:56:07,353 autoreload 13532 24180 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-23 08:56:08,235 autoreload 13868 24876 Watching for file changes with StatReloader
+INFO 2023-09-23 08:56:14,125 basehttp 13868 22020 "GET / HTTP/1.1" 200 13
+INFO 2023-09-23 08:56:16,803 basehttp 13868 25428 "GET / HTTP/1.1" 200 13
+INFO 2023-09-23 08:56:21,987 basehttp 13868 25428 "GET / HTTP/1.1" 200 13
+INFO 2023-09-23 08:56:54,294 autoreload 13868 24876 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-23 08:56:55,202 autoreload 4772 7912 Watching for file changes with StatReloader
+INFO 2023-09-23 08:56:55,560 basehttp 4772 9772 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-23 08:59:15,642 autoreload 4772 7912 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-23 08:59:16,395 autoreload 4600 15940 Watching for file changes with StatReloader
+INFO 2023-09-23 09:00:55,364 autoreload 4600 15940 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:00:56,146 autoreload 20960 13724 Watching for file changes with StatReloader
+INFO 2023-09-23 09:01:41,449 autoreload 20960 13724 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:01:42,493 autoreload 16308 23324 Watching for file changes with StatReloader
+INFO 2023-09-23 09:01:43,549 basehttp 16308 1156 "GET / HTTP/1.1" 200 431
+INFO 2023-09-23 09:02:05,165 autoreload 16308 23324 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:02:05,882 autoreload 19528 11672 Watching for file changes with StatReloader
+INFO 2023-09-23 09:02:06,005 basehttp 19528 23872 "GET / HTTP/1.1" 200 457
+INFO 2023-09-23 09:02:26,154 basehttp 19528 1380 "GET / HTTP/1.1" 200 457
+INFO 2023-09-23 09:02:26,272 autoreload 19528 11672 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:02:26,970 autoreload 8700 23460 Watching for file changes with StatReloader
+INFO 2023-09-23 09:02:28,487 basehttp 8700 12736 "GET / HTTP/1.1" 200 429
+INFO 2023-09-23 09:03:20,022 autoreload 8700 23460 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:03:20,755 autoreload 16724 3928 Watching for file changes with StatReloader
+INFO 2023-09-23 09:03:21,031 basehttp 16724 20092 "GET / HTTP/1.1" 200 457
+INFO 2023-09-23 09:09:37,177 autoreload 16724 3928 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:09:37,925 autoreload 16108 24492 Watching for file changes with StatReloader
+INFO 2023-09-23 09:09:43,966 basehttp 16108 22488 "GET /about/ HTTP/1.1" 200 8
+INFO 2023-09-23 09:09:53,355 autoreload 16108 24492 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:09:54,063 autoreload 8428 16064 Watching for file changes with StatReloader
+INFO 2023-09-23 09:09:54,572 basehttp 8428 23428 "GET /about/ HTTP/1.1" 200 433
+INFO 2023-09-23 09:13:50,447 autoreload 8428 16064 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:13:51,215 autoreload 15092 21528 Watching for file changes with StatReloader
+INFO 2023-09-23 09:13:51,453 basehttp 15092 17836 "GET /about/ HTTP/1.1" 200 689
+INFO 2023-09-23 09:14:23,249 autoreload 15092 21528 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-23 09:14:23,958 autoreload 13208 11564 Watching for file changes with StatReloader
+INFO 2023-09-23 09:14:24,249 basehttp 13208 6520 "GET /about/ HTTP/1.1" 200 689
