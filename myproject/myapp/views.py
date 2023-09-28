@@ -1,45 +1,48 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render, get_object_or_404
+from .models import User, Order
+from datetime import datetime, timedelta
 
 
-def index(response):
-    html = """
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Main</title>
-        </head>
-        <body>
-            <h1 style="text-align: center;">Главная страница сайта</h1>
-            <h2 style="text-align: center;">Сайт сделан на Django</h2>
-        </body>
-        </html>
-    """
-    return HttpResponse(html)
+def index(request):
+    context = {'title': 'Main',
+               'h1': 'Главная страница сайта',
+               'h2': 'Сайт сделан на Django',
+               }
+    return render(request, 'myapp/index.html', context)
 
 
-def about(response):
-    html = """
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>About</title>
-        </head>
-        <body>
-            <h1 style="text-align: center;">Обо мне</h1>
-            <div style="margin-left: 40px;">
-                <p>ФИО:</p>
-                <h3>Иванов Иван Иванович</h3>
-                <p>Телефон:</p>
-                <h3>+7(999) 999-99-99</h3>
-                <p>Адрес:</p>
-                <h3>г Москва, ул. Тверская 1</h3>
-            </div>
-        </body>
-        </html>
-    """
-    return HttpResponse(html)
+def about(request):
+    context = {'title': 'About me',
+               'fio': 'Иванов Иван Ивановчи',
+               'phone': '+7(999) 999-99-99',
+               'adress': 'г Москва, ул. Тверская 1'
+               }
+    return render(request, 'myapp/about.html', context)
+
+
+def orders(request, user_id):
+    user = get_object_or_404(User, pk=user_id)
+    orders = Order.objects.filter(customer_id=user_id)
+    context = {"user": user, "orders": orders, "title": "Все заказы пользователя"}
+    return render(request, 'myapp/orders.html', context)
+
+
+def order_last_days(request, user_id):
+    days = [7, 30, 365]
+    result = {}
+    user = User.objects.filter(pk=user_id).first()
+    for day in days:
+        last_day = datetime.now() - timedelta(days=day)
+        orders = Order.objects.filter(customer_id=user, date_ordered__gte=last_day)
+        products = set()
+        for order in orders:
+            for product in order.products.all():
+                products.add(product)
+        result[day] = products
+    context = {"7days": result[7],
+               "30days": result[30],
+               "365days": result[365],
+               "title": "Товары за 7, 30, 365 дней",
+               "user": user,
+               }
+    return render(request, 'myapp/orders_last_days.html', context)

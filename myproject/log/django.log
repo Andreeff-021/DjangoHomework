@@ -40,3 +40,1481 @@ INFO 2023-09-23 09:13:51,453 basehttp 15092 17836 "GET /about/ HTTP/1.1" 200 689
 INFO 2023-09-23 09:14:23,249 autoreload 15092 21528 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
 INFO 2023-09-23 09:14:23,958 autoreload 13208 11564 Watching for file changes with StatReloader
 INFO 2023-09-23 09:14:24,249 basehttp 13208 6520 "GET /about/ HTTP/1.1" 200 689
+INFO 2023-09-28 11:08:20,370 autoreload 16980 18692 Watching for file changes with StatReloader
+INFO 2023-09-28 11:09:03,941 autoreload 16980 18692 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-28 11:09:04,778 autoreload 18224 21212 Watching for file changes with StatReloader
+INFO 2023-09-28 11:09:54,978 autoreload 18224 21212 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:09:55,933 autoreload 14004 17456 Watching for file changes with StatReloader
+INFO 2023-09-28 11:10:47,944 autoreload 14004 17456 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-28 11:10:49,021 autoreload 14880 26872 Watching for file changes with StatReloader
+INFO 2023-09-28 11:12:07,627 autoreload 15876 30300 Watching for file changes with StatReloader
+INFO 2023-09-28 11:12:32,110 autoreload 29136 4704 Watching for file changes with StatReloader
+ERROR 2023-09-28 11:12:34,729 log 29136 6140 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:12:34,736 basehttp 29136 6140 "GET / HTTP/1.1" 500 79136
+INFO 2023-09-28 11:13:19,798 autoreload 28384 10648 Watching for file changes with StatReloader
+ERROR 2023-09-28 11:13:24,391 log 28384 29128 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:13:24,391 basehttp 28384 29128 "GET / HTTP/1.1" 500 79136
+INFO 2023-09-28 11:15:39,682 autoreload 29500 19400 Watching for file changes with StatReloader
+ERROR 2023-09-28 11:15:41,396 log 29500 9848 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:15:41,396 basehttp 29500 9848 "GET / HTTP/1.1" 500 79136
+INFO 2023-09-28 11:18:08,495 autoreload 29500 19400 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-28 11:18:09,138 autoreload 15776 30072 Watching for file changes with StatReloader
+WARNING 2023-09-28 11:18:11,004 log 15776 28272 Not Found: /
+WARNING 2023-09-28 11:18:11,006 basehttp 15776 28272 "GET / HTTP/1.1" 404 2165
+INFO 2023-09-28 11:18:19,367 basehttp 15776 28272 "GET /hm HTTP/1.1" 301 0
+ERROR 2023-09-28 11:18:19,421 log 15776 20028 Internal Server Error: /hm/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:18:19,421 basehttp 15776 20028 "GET /hm/ HTTP/1.1" 500 79172
+INFO 2023-09-28 11:19:39,077 autoreload 16700 19848 Watching for file changes with StatReloader
+WARNING 2023-09-28 11:19:40,966 log 16700 11016 Not Found: /
+WARNING 2023-09-28 11:19:40,968 basehttp 16700 11016 "GET / HTTP/1.1" 404 2165
+WARNING 2023-09-28 11:19:48,574 log 16700 11016 Not Found: /hw
+WARNING 2023-09-28 11:19:48,574 basehttp 16700 11016 "GET /hw HTTP/1.1" 404 2189
+INFO 2023-09-28 11:20:12,133 autoreload 16700 19848 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-28 11:20:12,929 autoreload 12272 8068 Watching for file changes with StatReloader
+INFO 2023-09-28 11:20:13,363 basehttp 12272 29292 "GET /hw HTTP/1.1" 301 0
+ERROR 2023-09-28 11:20:13,402 log 12272 31044 Internal Server Error: /hw/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:20:13,405 basehttp 12272 31044 "GET /hw/ HTTP/1.1" 500 79309
+INFO 2023-09-28 11:20:31,309 autoreload 12864 6536 Watching for file changes with StatReloader
+ERROR 2023-09-28 11:20:34,460 log 12864 25812 Internal Server Error: /hw/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:20:34,462 basehttp 12864 25812 "GET /hw/ HTTP/1.1" 500 79309
+ERROR 2023-09-28 11:20:36,395 log 12864 25812 Internal Server Error: /hw/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:20:36,397 basehttp 12864 25812 "GET /hw/ HTTP/1.1" 500 79309
+INFO 2023-09-28 11:21:22,416 autoreload 12864 6536 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-28 11:21:23,042 autoreload 8468 21460 Watching for file changes with StatReloader
+INFO 2023-09-28 11:21:46,016 autoreload 8468 21460 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-28 11:21:46,626 autoreload 14360 32280 Watching for file changes with StatReloader
+WARNING 2023-09-28 11:21:49,308 log 14360 3084 Not Found: /
+WARNING 2023-09-28 11:21:49,308 basehttp 14360 3084 "GET / HTTP/1.1" 404 2165
+ERROR 2023-09-28 11:21:57,493 log 14360 3084 Internal Server Error: /hw/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in main
+    return render(request, 'sem3/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/index.html
+ERROR 2023-09-28 11:21:57,509 basehttp 14360 3084 "GET /hw/ HTTP/1.1" 500 79166
+INFO 2023-09-28 11:23:56,192 autoreload 14360 32280 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:23:57,027 autoreload 32764 30784 Watching for file changes with StatReloader
+INFO 2023-09-28 11:24:16,350 autoreload 32764 30784 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-28 11:24:17,093 autoreload 29640 12900 Watching for file changes with StatReloader
+ERROR 2023-09-28 11:24:33,204 log 29640 28504 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: sem3/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 9, in index
+    return render(request, 'myapp/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: sem3/base.html
+ERROR 2023-09-28 11:24:33,210 basehttp 29640 28504 "GET / HTTP/1.1" 500 129031
+INFO 2023-09-28 11:26:00,130 autoreload 8044 7508 Watching for file changes with StatReloader
+INFO 2023-09-28 11:26:01,514 basehttp 8044 26112 "GET / HTTP/1.1" 200 245
+INFO 2023-09-28 11:26:11,859 basehttp 8044 26112 "GET /about HTTP/1.1" 301 0
+INFO 2023-09-28 11:26:11,876 basehttp 8044 27584 "GET /about/ HTTP/1.1" 200 424
+INFO 2023-09-28 11:41:23,171 autoreload 8044 7508 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:41:23,844 autoreload 15076 7576 Watching for file changes with StatReloader
+INFO 2023-09-28 11:43:46,325 autoreload 15076 7576 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:43:47,168 autoreload 11968 29052 Watching for file changes with StatReloader
+INFO 2023-09-28 11:45:11,843 autoreload 11968 29052 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:45:12,623 autoreload 28036 23568 Watching for file changes with StatReloader
+INFO 2023-09-28 11:46:20,741 autoreload 28036 23568 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:46:21,672 autoreload 7328 5440 Watching for file changes with StatReloader
+INFO 2023-09-28 11:46:53,068 autoreload 7328 5440 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:46:54,056 autoreload 25160 12220 Watching for file changes with StatReloader
+INFO 2023-09-28 11:47:05,704 autoreload 25160 12220 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:47:06,501 autoreload 29160 13872 Watching for file changes with StatReloader
+INFO 2023-09-28 11:47:48,290 autoreload 29160 13872 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:47:49,193 autoreload 16120 12344 Watching for file changes with StatReloader
+INFO 2023-09-28 11:52:52,760 autoreload 16120 12344 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:52:53,810 autoreload 25736 27544 Watching for file changes with StatReloader
+INFO 2023-09-28 11:55:49,840 autoreload 25736 27544 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 11:55:51,009 autoreload 24104 24424 Watching for file changes with StatReloader
+INFO 2023-09-28 12:24:35,095 autoreload 24104 24424 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 12:24:36,192 autoreload 20836 21264 Watching for file changes with StatReloader
+INFO 2023-09-28 13:24:57,642 autoreload 1584 21424 Watching for file changes with StatReloader
+INFO 2023-09-28 13:25:01,681 basehttp 1584 15104 "GET / HTTP/1.1" 200 245
+INFO 2023-09-28 13:25:13,009 basehttp 1584 28276 "GET /orders/4 HTTP/1.1" 301 0
+ERROR 2023-09-28 13:25:13,569 log 1584 23600 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp3/author_posts.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/author_posts.html
+ERROR 2023-09-28 13:25:13,575 basehttp 1584 23600 "GET /orders/4/ HTTP/1.1" 500 79238
+WARNING 2023-09-28 13:25:40,072 log 1584 23600 Not Found: /orders/
+WARNING 2023-09-28 13:25:40,072 basehttp 1584 23600 "GET /orders/ HTTP/1.1" 404 2618
+INFO 2023-09-28 13:27:53,400 autoreload 1584 21424 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 13:27:54,272 autoreload 31320 26352 Watching for file changes with StatReloader
+INFO 2023-09-28 13:28:16,090 basehttp 31320 10284 "GET / HTTP/1.1" 200 245
+ERROR 2023-09-28 13:28:33,668 log 31320 10284 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp3/author_posts.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/author_posts.html
+ERROR 2023-09-28 13:28:33,683 basehttp 31320 10284 "GET /orders/4/ HTTP/1.1" 500 79238
+INFO 2023-09-28 13:31:52,616 autoreload 11772 7512 Watching for file changes with StatReloader
+INFO 2023-09-28 13:31:55,413 basehttp 11772 26532 "GET / HTTP/1.1" 200 245
+ERROR 2023-09-28 13:32:05,824 log 11772 26532 Internal Server Error: /orders/3/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp3/author_posts.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/author_posts.html
+ERROR 2023-09-28 13:32:05,840 basehttp 11772 26532 "GET /orders/3/ HTTP/1.1" 500 78715
+INFO 2023-09-28 13:38:21,389 basehttp 11772 22128 "GET /about/ HTTP/1.1" 200 424
+ERROR 2023-09-28 13:38:35,139 log 11772 22128 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp3/author_posts.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/author_posts.html
+ERROR 2023-09-28 13:38:35,139 basehttp 11772 22128 "GET /orders/4/ HTTP/1.1" 500 79238
+INFO 2023-09-28 13:40:16,609 autoreload 11772 7512 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 13:40:17,237 autoreload 23248 29880 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:40:24,033 log 23248 30792 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 13:40:24,049 basehttp 23248 30792 "GET /orders/4/ HTTP/1.1" 500 193224
+INFO 2023-09-28 13:43:00,264 autoreload 28348 4704 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:43:04,500 log 28348 28628 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 13:43:04,506 basehttp 28348 28628 "GET /orders/4/ HTTP/1.1" 500 193417
+INFO 2023-09-28 13:44:37,535 autoreload 7052 27384 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:44:40,525 log 7052 10156 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 13:44:40,537 basehttp 7052 10156 "GET /orders/4/ HTTP/1.1" 500 193595
+INFO 2023-09-28 13:45:55,398 autoreload 25144 26380 Watching for file changes with StatReloader
+INFO 2023-09-28 13:45:58,485 basehttp 25144 28744 "GET /orders/4/ HTTP/1.1" 200 904
+ERROR 2023-09-28 13:48:38,937 log 25144 28744 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(3)' from 'range(3)'
+ERROR 2023-09-28 13:48:38,942 basehttp 25144 28744 "GET /orders/4/ HTTP/1.1" 500 190285
+INFO 2023-09-28 13:49:24,938 autoreload 22948 28644 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:49:27,004 log 22948 32440 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(3)' from 'range(3)'
+ERROR 2023-09-28 13:49:27,010 basehttp 22948 32440 "GET /orders/4/ HTTP/1.1" 500 191078
+INFO 2023-09-28 13:50:10,690 autoreload 19160 22208 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:50:12,180 log 19160 14392 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(3)' from 'range(3)'
+ERROR 2023-09-28 13:50:12,180 basehttp 19160 14392 "GET /orders/4/ HTTP/1.1" 500 192079
+INFO 2023-09-28 13:56:55,432 autoreload 11240 21264 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:56:59,958 log 11240 21632 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 13:56:59,958 basehttp 11240 21632 "GET /orders/4/ HTTP/1.1" 500 183229
+INFO 2023-09-28 13:58:26,649 autoreload 20316 8412 Watching for file changes with StatReloader
+INFO 2023-09-28 13:58:26,982 basehttp 20316 25896 "GET /orders/4/ HTTP/1.1" 200 928
+INFO 2023-09-28 14:01:22,042 autoreload 24940 27344 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:01:22,822 log 24940 27420 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for i in range(0, 3)
+ERROR 2023-09-28 14:01:22,822 basehttp 24940 27420 "GET /orders/4/ HTTP/1.1" 500 181080
+INFO 2023-09-28 14:03:56,589 autoreload 8520 27960 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:03:58,565 log 8520 5520 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 14:03:58,573 basehttp 8520 5520 "GET /orders/4/ HTTP/1.1" 500 193052
+INFO 2023-09-28 14:08:35,124 autoreload 8520 27960 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 14:08:35,737 autoreload 7388 8424 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:08:38,697 log 7388 28300 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 27, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for i in range(0, 3)
+ERROR 2023-09-28 14:08:38,703 basehttp 7388 28300 "GET /orders/4/ HTTP/1.1" 500 181190
+INFO 2023-09-28 14:09:37,653 autoreload 27496 4940 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:09:38,002 log 27496 24296 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 27, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for i in range(0, 3)
+ERROR 2023-09-28 14:09:38,018 basehttp 27496 24296 "GET /orders/4/ HTTP/1.1" 500 182686
+INFO 2023-09-28 14:10:26,853 autoreload 17456 12376 Watching for file changes with StatReloader
+INFO 2023-09-28 14:10:28,780 basehttp 17456 30680 "GET /orders/4/ HTTP/1.1" 200 1244
+INFO 2023-09-28 14:12:43,066 autoreload 17456 12376 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-28 14:12:43,857 autoreload 5848 32760 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:12:44,494 log 5848 29692 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 27, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+TypeError: __str__ returned non-string (type set)
+ERROR 2023-09-28 14:12:44,498 basehttp 5848 29692 "GET /orders/4/ HTTP/1.1" 500 156158
+INFO 2023-09-28 14:13:44,752 autoreload 5848 32760 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-28 14:13:45,414 autoreload 32508 28744 Watching for file changes with StatReloader
+INFO 2023-09-28 14:13:48,674 basehttp 32508 26548 "GET /orders/4/ HTTP/1.1" 200 936
+INFO 2023-09-28 14:17:34,573 basehttp 32508 26548 "GET /orders/4/ HTTP/1.1" 200 1228
+INFO 2023-09-28 14:32:52,852 autoreload 23872 12684 Watching for file changes with StatReloader
+INFO 2023-09-28 14:32:55,860 basehttp 23872 26448 "GET /orders/4/ HTTP/1.1" 200 1736
+ERROR 2023-09-28 14:35:03,261 log 23872 26448 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for {{ product }} in {{ order.products.all() }}
+ERROR 2023-09-28 14:35:03,269 basehttp 23872 26448 "GET /orders/4/ HTTP/1.1" 500 182872
+INFO 2023-09-28 14:38:36,699 autoreload 28664 1292 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:38:41,929 log 28664 29004 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for i in range(0, 3) }}
+ERROR 2023-09-28 14:38:41,933 basehttp 28664 29004 "GET /orders/4/ HTTP/1.1" 500 182474
+INFO 2023-09-28 14:41:42,916 autoreload 14732 22204 Watching for file changes with StatReloader
+INFO 2023-09-28 14:41:43,205 basehttp 14732 31240 "GET /orders/4/ HTTP/1.1" 200 1212
+INFO 2023-09-28 14:44:57,164 basehttp 14732 31240 "GET /orders/4/ HTTP/1.1" 200 908
+ERROR 2023-09-28 14:46:41,584 log 14732 31240 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.producrs.all()'
+ERROR 2023-09-28 14:46:41,590 basehttp 14732 31240 "GET /orders/4/ HTTP/1.1" 500 183373
+INFO 2023-09-28 14:47:14,189 autoreload 5584 22908 Watching for file changes with StatReloader
+INFO 2023-09-28 14:47:14,749 basehttp 5584 7240 "GET /orders/4/ HTTP/1.1" 200 904
+INFO 2023-09-28 14:47:30,449 basehttp 5584 7240 "GET /orders/4/ HTTP/1.1" 200 976
+ERROR 2023-09-28 14:47:39,558 log 5584 7240 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 14:47:39,563 basehttp 5584 7240 "GET /orders/4/ HTTP/1.1" 500 183373
+INFO 2023-09-28 14:50:30,733 autoreload 25220 26680 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:50:33,538 log 25220 11012 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 26, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 14:50:33,538 basehttp 25220 11012 "GET /orders/4/ HTTP/1.1" 500 193184
+INFO 2023-09-28 15:01:04,956 autoreload 31816 24492 Watching for file changes with StatReloader
+ERROR 2023-09-28 15:01:08,928 log 31816 29452 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 27, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-28 15:01:08,934 basehttp 31816 29452 "GET /orders/4/ HTTP/1.1" 500 157926
+INFO 2023-09-28 15:01:33,827 autoreload 29840 20016 Watching for file changes with StatReloader
+ERROR 2023-09-28 15:01:35,837 log 29840 25556 Internal Server Error: /orders/4/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 27, in orders
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products.all()'
+ERROR 2023-09-28 15:01:35,844 basehttp 29840 25556 "GET /orders/4/ HTTP/1.1" 500 193119
+INFO 2023-09-28 15:01:54,934 autoreload 29272 3580 Watching for file changes with StatReloader
+INFO 2023-09-28 15:01:57,000 basehttp 29272 18292 "GET /orders/4/ HTTP/1.1" 200 1069
+INFO 2023-09-28 15:02:33,061 basehttp 29272 24428 "GET /orders/9/ HTTP/1.1" 200 782
+INFO 2023-09-28 15:33:30,313 autoreload 32660 16508 Watching for file changes with StatReloader
+INFO 2023-09-28 15:33:43,020 basehttp 32660 32036 "GET /orders/1/ HTTP/1.1" 200 501
+INFO 2023-09-28 15:36:51,129 basehttp 32660 14748 "GET /orders/1/ HTTP/1.1" 200 543
+INFO 2023-09-28 15:36:52,480 basehttp 32660 14748 "GET /orders/1/ HTTP/1.1" 200 543
+INFO 2023-09-28 15:36:54,349 basehttp 32660 14748 "GET /orders/1/ HTTP/1.1" 200 543
+INFO 2023-09-28 15:37:24,688 basehttp 32660 17596 "GET /orders/1/ HTTP/1.1" 200 536
+INFO 2023-09-28 15:38:08,934 basehttp 32660 16708 "GET /orders/1/ HTTP/1.1" 200 555
+INFO 2023-09-28 15:38:22,627 basehttp 32660 30568 "GET /orders/1/ HTTP/1.1" 200 556
+INFO 2023-09-28 15:38:34,667 basehttp 32660 15804 "GET /orders/1/ HTTP/1.1" 200 555
+INFO 2023-09-28 15:39:14,512 basehttp 32660 1204 "GET /orders/1/ HTTP/1.1" 200 549
+INFO 2023-09-28 15:39:32,185 basehttp 32660 10048 "GET /orders/1/ HTTP/1.1" 200 548
+INFO 2023-09-28 15:41:39,963 basehttp 32660 26176 "GET /orders/1/ HTTP/1.1" 200 561
+INFO 2023-09-28 15:41:48,084 basehttp 32660 16676 "GET /orders/1/ HTTP/1.1" 200 550
+INFO 2023-09-28 15:41:55,207 basehttp 32660 16676 "GET /orders/1/ HTTP/1.1" 200 561
+INFO 2023-09-28 16:05:29,965 autoreload 30940 31552 Watching for file changes with StatReloader
+INFO 2023-09-28 16:05:32,115 basehttp 30940 22120 "GET /orders/2/ HTTP/1.1" 200 561
+INFO 2023-09-28 16:05:39,434 basehttp 30940 22120 "GET /orders/3/ HTTP/1.1" 200 561
+INFO 2023-09-28 16:06:33,722 autoreload 32156 25408 Watching for file changes with StatReloader
+INFO 2023-09-28 16:06:39,326 basehttp 32156 7860 "GET /orders/1/ HTTP/1.1" 200 842
+INFO 2023-09-28 16:08:54,940 basehttp 32156 7860 "GET /orders/1/ HTTP/1.1" 200 936
+INFO 2023-09-28 16:10:24,718 autoreload 21632 17680 Watching for file changes with StatReloader
+INFO 2023-09-28 16:10:26,233 basehttp 21632 29056 "GET /orders/1/ HTTP/1.1" 200 1303
+INFO 2023-09-28 16:56:49,510 autoreload 21576 16948 Watching for file changes with StatReloader
+INFO 2023-09-28 16:56:51,983 basehttp 21576 31412 "GET /orders/1/ HTTP/1.1" 200 1670
+INFO 2023-09-28 17:02:36,532 autoreload 25004 10728 Watching for file changes with StatReloader
+INFO 2023-09-28 17:02:56,965 basehttp 25004 17416 "GET /orders/1/ HTTP/1.1" 200 1790
+INFO 2023-09-28 17:03:23,330 autoreload 25004 10728 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-28 17:03:24,100 autoreload 25612 31900 Watching for file changes with StatReloader
+INFO 2023-09-28 17:03:24,374 basehttp 25612 11516 "GET /orders/1/ HTTP/1.1" 200 1670
+INFO 2023-09-28 17:45:56,325 basehttp 25612 11716 "GET /orders/2 HTTP/1.1" 301 0
+INFO 2023-09-28 17:45:56,346 basehttp 25612 23712 "GET /orders/2/ HTTP/1.1" 200 624
+INFO 2023-09-28 17:46:02,304 basehttp 25612 14820 "GET /orders/3/ HTTP/1.1" 200 624
+INFO 2023-09-28 17:46:08,351 basehttp 25612 14820 "GET /orders/4/ HTTP/1.1" 200 312
+INFO 2023-09-28 17:46:23,228 basehttp 25612 1984 "GET /orders/3/ HTTP/1.1" 200 624
+INFO 2023-09-28 17:46:53,298 basehttp 25612 24016 "GET /orders/1/ HTTP/1.1" 200 1670
+INFO 2023-09-28 17:47:18,854 basehttp 25612 8648 "GET /orders/2/ HTTP/1.1" 200 624
+INFO 2023-09-28 17:47:23,226 basehttp 25612 6080 "GET /orders/23 HTTP/1.1" 301 0
+WARNING 2023-09-28 17:47:23,247 log 25612 7268 Not Found: /orders/23/
+WARNING 2023-09-28 17:47:23,248 basehttp 25612 7268 "GET /orders/23/ HTTP/1.1" 404 2781
+INFO 2023-09-28 17:47:36,727 basehttp 25612 4672 "GET /orders/3/ HTTP/1.1" 200 624
+INFO 2023-09-28 20:12:53,511 basehttp 25612 1480 "GET /orders/4/ HTTP/1.1" 200 312
+INFO 2023-09-28 20:12:58,038 basehttp 25612 1480 "GET /orders/42 HTTP/1.1" 301 0
+WARNING 2023-09-28 20:12:58,054 log 25612 30200 Not Found: /orders/42/
+WARNING 2023-09-28 20:12:58,054 basehttp 25612 30200 "GET /orders/42/ HTTP/1.1" 404 2781
+INFO 2023-09-28 20:13:02,702 basehttp 25612 7144 "GET /orders/2/ HTTP/1.1" 200 624
+INFO 2023-09-28 20:13:06,986 basehttp 25612 7144 "GET /orders/1/ HTTP/1.1" 200 1670
+INFO 2023-09-28 20:15:11,953 autoreload 31552 21864 Watching for file changes with StatReloader
+INFO 2023-09-28 20:15:27,054 basehttp 31552 23896 "GET /orders/2/ HTTP/1.1" 200 624
+INFO 2023-09-28 20:15:32,185 basehttp 31552 23896 "GET /orders/1/ HTTP/1.1" 200 1670
+INFO 2023-09-28 20:17:23,655 basehttp 31552 23896 "GET /orders/2/ HTTP/1.1" 200 624
+INFO 2023-09-28 20:23:06,421 autoreload 31552 21864 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 20:23:07,247 autoreload 2336 32172 Watching for file changes with StatReloader
+INFO 2023-09-28 20:23:08,692 basehttp 2336 7264 "GET /orders/2/ HTTP/1.1" 200 668
+INFO 2023-09-28 20:23:17,628 basehttp 2336 7264 "GET /orders/1/ HTTP/1.1" 200 1714
+INFO 2023-09-28 20:26:52,229 autoreload 2336 32172 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 20:26:53,067 autoreload 24172 17772 Watching for file changes with StatReloader
+INFO 2023-09-28 21:03:06,307 autoreload 22104 24920 Watching for file changes with StatReloader
+INFO 2023-09-28 21:07:24,923 autoreload 26784 12332 Watching for file changes with StatReloader
+INFO 2023-09-28 21:07:55,509 basehttp 26784 24204 "GET /order_last_days/1/ HTTP/1.1" 200 815
+INFO 2023-09-28 21:09:41,044 autoreload 26784 12332 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-28 21:09:41,933 autoreload 23632 32412 Watching for file changes with StatReloader
+INFO 2023-09-28 21:09:42,279 basehttp 23632 8836 "GET /order_last_days/1/ HTTP/1.1" 200 808
+INFO 2023-09-28 21:10:06,641 basehttp 23632 8836 "GET /order_last_days/2/ HTTP/1.1" 200 574
+INFO 2023-09-28 21:10:29,587 basehttp 23632 8836 "GET /order_last_days/3/ HTTP/1.1" 200 574
+INFO 2023-09-28 21:32:56,134 autoreload 16096 10996 Watching for file changes with StatReloader
+WARNING 2023-09-28 21:33:03,154 log 16096 25280 Not Found: /order/3/
+WARNING 2023-09-28 21:33:03,154 basehttp 16096 25280 "GET /order/3/ HTTP/1.1" 404 2828
+INFO 2023-09-28 21:33:14,650 basehttp 16096 25280 "GET /orders/3/ HTTP/1.1" 200 668
+INFO 2023-09-28 21:33:21,606 basehttp 16096 25280 "GET /orders/4/ HTTP/1.1" 200 723
+INFO 2023-09-28 21:33:50,594 autoreload 20780 30932 Watching for file changes with StatReloader
+INFO 2023-09-28 21:33:54,057 basehttp 20780 27160 "GET /orders/4/ HTTP/1.1" 200 1090
+INFO 2023-09-28 21:34:44,322 basehttp 20780 27160 "GET /orders/1/ HTTP/1.1" 200 1714
