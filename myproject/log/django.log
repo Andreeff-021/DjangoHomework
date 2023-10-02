@@ -1518,3 +1518,276 @@ INFO 2023-09-28 21:33:21,606 basehttp 16096 25280 "GET /orders/4/ HTTP/1.1" 200 
 INFO 2023-09-28 21:33:50,594 autoreload 20780 30932 Watching for file changes with StatReloader
 INFO 2023-09-28 21:33:54,057 basehttp 20780 27160 "GET /orders/4/ HTTP/1.1" 200 1090
 INFO 2023-09-28 21:34:44,322 basehttp 20780 27160 "GET /orders/1/ HTTP/1.1" 200 1714
+WARNING 2023-09-28 21:40:10,344 log 20780 10928 Not Found: /orders_last_days/1/
+WARNING 2023-09-28 21:40:10,346 basehttp 20780 10928 "GET /orders_last_days/1/ HTTP/1.1" 404 2861
+INFO 2023-09-28 21:40:51,557 basehttp 20780 10928 "GET /orders/1/ HTTP/1.1" 200 1714
+INFO 2023-09-28 21:41:18,672 basehttp 20780 10928 "GET /order_last_days/1/ HTTP/1.1" 200 808
+INFO 2023-09-29 14:25:17,106 autoreload 17468 13024 Watching for file changes with StatReloader
+INFO 2023-09-29 14:25:30,388 basehttp 17468 18860 "GET / HTTP/1.1" 200 245
+INFO 2023-09-29 14:25:42,750 basehttp 17468 18860 "GET /orders/1/ HTTP/1.1" 200 1714
+INFO 2023-09-29 14:26:05,077 autoreload 17468 13024 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-09-29 14:26:05,975 autoreload 29544 29340 Watching for file changes with StatReloader
+INFO 2023-09-29 14:26:08,478 basehttp 29544 30560 "GET /orders/2/ HTTP/1.1" 200 668
+INFO 2023-09-29 14:57:17,188 autoreload 12576 23348 Watching for file changes with StatReloader
+INFO 2023-09-29 14:57:56,674 basehttp 12576 30220 "GET / HTTP/1.1" 200 245
+INFO 2023-09-29 14:58:14,985 basehttp 12576 30220 "GET /user/add/ HTTP/1.1" 200 1003
+INFO 2023-09-29 14:59:02,830 autoreload 12576 23348 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 14:59:03,629 autoreload 25824 26052 Watching for file changes with StatReloader
+INFO 2023-09-29 14:59:05,679 basehttp 25824 24988 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 14:59:35,179 basehttp 25824 24988 "POST /user/add/ HTTP/1.1" 200 1148
+ERROR 2023-09-29 15:01:26,852 log 25824 24988 Internal Server Error: /user/add/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 66, in add_user
+    user.save()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-29 15:01:26,869 basehttp 25824 24988 "POST /user/add/ HTTP/1.1" 500 125608
+INFO 2023-09-29 15:01:26,888 basehttp 25824 24988 - Broken pipe from ('127.0.0.1', 50789)
+WARNING 2023-09-29 15:01:35,338 log 25824 30212 Not Found: /user/ad
+WARNING 2023-09-29 15:01:35,338 basehttp 25824 30212 "GET /user/ad HTTP/1.1" 404 2998
+INFO 2023-09-29 15:01:41,482 basehttp 25824 30212 "GET /user/add/ HTTP/1.1" 200 1001
+ERROR 2023-09-29 15:02:59,102 log 25824 30212 Internal Server Error: /user/add/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 66, in add_user
+    user.save()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-29 15:02:59,107 basehttp 25824 30212 "POST /user/add/ HTTP/1.1" 500 125401
+ERROR 2023-09-29 15:03:04,606 log 25824 23792 Internal Server Error: /user/add/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 66, in add_user
+    user.save()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-29 15:03:04,621 basehttp 25824 23792 "POST /user/add/ HTTP/1.1" 500 125401
+INFO 2023-09-29 15:03:27,140 autoreload 2252 23576 Watching for file changes with StatReloader
+WARNING 2023-09-29 15:03:39,919 log 2252 26800 Not Found: /user/ad
+WARNING 2023-09-29 15:03:39,934 basehttp 2252 26800 "GET /user/ad HTTP/1.1" 404 2998
+INFO 2023-09-29 15:03:44,435 basehttp 2252 26800 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 15:04:22,457 basehttp 2252 26800 "POST /user/add/ HTTP/1.1" 200 1165
+INFO 2023-09-29 15:51:53,525 autoreload 2252 23576 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 15:51:54,878 autoreload 27132 26500 Watching for file changes with StatReloader
+WARNING 2023-09-29 15:51:57,382 log 27132 22136 Not Found: /user/ad
+WARNING 2023-09-29 15:51:57,382 basehttp 27132 22136 "GET /user/ad HTTP/1.1" 404 2998
+INFO 2023-09-29 15:52:04,950 basehttp 27132 22136 "GET /user/add/ HTTP/1.1" 200 1001
+ERROR 2023-09-29 15:52:16,183 log 27132 22136 Internal Server Error: /user/add/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_user didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-29 15:52:16,185 basehttp 27132 22136 "POST /user/add/ HTTP/1.1" 500 67051
+INFO 2023-09-29 15:52:47,929 autoreload 27132 26500 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 15:52:48,650 autoreload 12516 20720 Watching for file changes with StatReloader
+WARNING 2023-09-29 15:52:52,110 log 12516 19668 Not Found: /user/ad
+WARNING 2023-09-29 15:52:52,110 basehttp 12516 19668 "GET /user/ad HTTP/1.1" 404 2998
+INFO 2023-09-29 15:52:55,825 basehttp 12516 19668 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 15:53:01,862 basehttp 12516 19668 "POST /user/add/ HTTP/1.1" 200 1113
+INFO 2023-09-29 15:53:27,350 autoreload 12516 20720 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 15:53:28,527 autoreload 22704 24624 Watching for file changes with StatReloader
+INFO 2023-09-29 15:53:42,699 basehttp 22704 4680 "POST /user/add/ HTTP/1.1" 200 1113
+INFO 2023-09-29 16:09:33,356 autoreload 22704 24624 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\forms.py changed, reloading.
+INFO 2023-09-29 16:09:34,263 autoreload 24396 20352 Watching for file changes with StatReloader
+INFO 2023-09-29 16:11:25,444 autoreload 24396 20352 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:11:26,398 autoreload 10448 30960 Watching for file changes with StatReloader
+INFO 2023-09-29 16:16:11,808 autoreload 10448 30960 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:16:12,622 autoreload 11548 30968 Watching for file changes with StatReloader
+INFO 2023-09-29 16:17:17,573 autoreload 31988 17960 Watching for file changes with StatReloader
+INFO 2023-09-29 16:19:00,546 autoreload 31988 17960 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-09-29 16:19:01,185 autoreload 25284 32480 Watching for file changes with StatReloader
+INFO 2023-09-29 16:19:04,786 basehttp 25284 3788 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 16:19:20,764 basehttp 25284 3788 "GET /product/add/ HTTP/1.1" 200 1014
+INFO 2023-09-29 16:20:26,688 basehttp 25284 3788 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:21:57,685 autoreload 25284 32480 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:21:59,021 autoreload 17580 31804 Watching for file changes with StatReloader
+INFO 2023-09-29 16:23:18,416 autoreload 17580 31804 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:23:19,034 autoreload 22900 13300 Watching for file changes with StatReloader
+INFO 2023-09-29 16:23:22,266 basehttp 22900 10992 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:23:26,148 basehttp 22900 10992 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:23:27,521 basehttp 22900 10992 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:23:35,539 basehttp 22900 10992 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 16:23:42,822 basehttp 22900 10992 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:24:27,208 autoreload 22900 13300 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:24:28,022 autoreload 29712 28116 Watching for file changes with StatReloader
+INFO 2023-09-29 16:24:28,354 basehttp 29712 28960 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:24:30,156 basehttp 29712 28960 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:24:39,864 autoreload 27264 25188 Watching for file changes with StatReloader
+INFO 2023-09-29 16:24:47,825 basehttp 27264 21704 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 16:24:53,042 basehttp 27264 21704 "GET /product/add/ HTTP/1.1" 200 1002
+INFO 2023-09-29 16:25:28,850 autoreload 27264 25188 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-29 16:25:29,585 autoreload 17756 6872 Watching for file changes with StatReloader
+INFO 2023-09-29 16:25:29,964 basehttp 17756 30136 "GET /product/add/ HTTP/1.1" 200 986
+INFO 2023-09-29 16:26:20,853 basehttp 17756 30136 "POST /product/add/ HTTP/1.1" 200 1039
+INFO 2023-09-29 21:58:20,819 autoreload 29348 20732 Watching for file changes with StatReloader
+INFO 2023-09-29 21:58:31,377 basehttp 29348 30052 "GET /user/add/ HTTP/1.1" 200 1001
+INFO 2023-09-29 21:58:38,776 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1182
+INFO 2023-09-29 21:59:17,028 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1201
+INFO 2023-09-29 21:59:26,440 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1200
+INFO 2023-09-29 21:59:41,641 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1213
+INFO 2023-09-29 21:59:58,270 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1214
+INFO 2023-09-29 22:00:28,740 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1233
+INFO 2023-09-29 22:00:56,513 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1213
+INFO 2023-09-29 22:01:02,791 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1214
+INFO 2023-09-29 22:01:04,144 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1214
+INFO 2023-09-29 22:01:10,704 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1200
+INFO 2023-09-29 22:01:33,051 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1226
+INFO 2023-09-29 22:02:21,227 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1230
+INFO 2023-09-29 22:02:34,233 basehttp 29348 30052 "GET /product/add/ HTTP/1.1" 200 1226
+INFO 2023-09-29 22:04:04,222 basehttp 29348 13080 "GET /product/add/ HTTP/1.1" 200 1238
+INFO 2023-09-29 22:04:15,234 basehttp 29348 31448 "GET /product/add/ HTTP/1.1" 200 1251
+INFO 2023-10-02 11:08:49,753 autoreload 32496 20736 Watching for file changes with StatReloader
+INFO 2023-10-02 11:09:02,843 basehttp 32496 2176 "GET / HTTP/1.1" 200 245
+WARNING 2023-10-02 11:09:03,060 log 32496 2176 Not Found: /favicon.ico
+WARNING 2023-10-02 11:09:03,061 basehttp 32496 2176 "GET /favicon.ico HTTP/1.1" 404 3189
+INFO 2023-10-02 11:09:14,047 basehttp 32496 22664 "GET /product/add/ HTTP/1.1" 200 1436
+INFO 2023-10-02 11:09:43,510 basehttp 32496 29752 "POST /product/add/ HTTP/1.1" 200 1546
+INFO 2023-10-02 11:15:16,418 basehttp 32496 19088 "POST /product/add/ HTTP/1.1" 200 1546
+INFO 2023-10-02 11:42:12,717 autoreload 19304 34440 Watching for file changes with StatReloader
+WARNING 2023-10-02 11:42:23,120 log 19304 31144 Not Found: /product/ad
+WARNING 2023-10-02 11:42:23,120 basehttp 19304 31144 "GET /product/ad HTTP/1.1" 404 3186
+INFO 2023-10-02 11:42:29,803 basehttp 19304 31144 "GET /product/add/ HTTP/1.1" 200 1436
+INFO 2023-10-02 11:42:48,870 basehttp 19304 31144 "POST /product/add/ HTTP/1.1" 200 1547
+INFO 2023-10-02 11:57:34,472 autoreload 32308 9656 Watching for file changes with StatReloader
+INFO 2023-10-02 11:57:44,896 basehttp 32308 23528 "POST /product/add/ HTTP/1.1" 200 1577
+WARNING 2023-10-02 11:57:53,938 log 32308 23528 Not Found: /product/ad
+WARNING 2023-10-02 11:57:53,938 basehttp 32308 23528 "GET /product/ad HTTP/1.1" 404 3186
+INFO 2023-10-02 11:57:58,204 basehttp 32308 23528 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 11:58:11,264 basehttp 32308 23528 "POST /product/add/ HTTP/1.1" 200 1581
+INFO 2023-10-02 12:00:38,289 autoreload 32308 9656 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-10-02 12:00:39,056 autoreload 14500 33744 Watching for file changes with StatReloader
+WARNING 2023-10-02 12:00:45,624 log 14500 31036 Not Found: /product/ad
+WARNING 2023-10-02 12:00:45,624 basehttp 14500 31036 "GET /product/ad HTTP/1.1" 404 3186
+INFO 2023-10-02 12:00:49,842 basehttp 14500 31036 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 12:01:03,981 basehttp 14500 31036 "POST /product/add/ HTTP/1.1" 200 1581
+INFO 2023-10-02 12:14:18,593 autoreload 14020 33332 Watching for file changes with StatReloader
+INFO 2023-10-02 12:14:19,678 basehttp 14020 3324 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 12:14:26,015 basehttp 14020 3324 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 12:14:35,566 basehttp 14020 3324 "POST /product/add/ HTTP/1.1" 200 1581
+INFO 2023-10-02 12:18:32,647 autoreload 29968 23648 Watching for file changes with StatReloader
+WARNING 2023-10-02 12:18:40,821 log 29968 12680 Not Found: /product/ad
+WARNING 2023-10-02 12:18:40,821 basehttp 29968 12680 "GET /product/ad HTTP/1.1" 404 3186
+INFO 2023-10-02 12:18:44,600 basehttp 29968 25052 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 12:19:21,829 basehttp 29968 25052 "POST /product/add/ HTTP/1.1" 200 1574
+INFO 2023-10-02 12:27:59,695 basehttp 29968 4496 "POST /product/add/ HTTP/1.1" 200 1564
+INFO 2023-10-02 13:46:26,894 autoreload 29968 23648 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-10-02 13:46:28,028 autoreload 34924 13508 Watching for file changes with StatReloader
+INFO 2023-10-02 13:46:32,540 autoreload 19444 21524 Watching for file changes with StatReloader
+INFO 2023-10-02 13:46:36,657 basehttp 19444 28556 "GET / HTTP/1.1" 200 245
+INFO 2023-10-02 13:46:44,808 basehttp 19444 28556 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 13:47:19,132 basehttp 19444 33584 "POST /product/add/ HTTP/1.1" 200 1577
+INFO 2023-10-02 13:49:17,495 autoreload 19444 21524 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-10-02 13:49:18,218 autoreload 24688 24820 Watching for file changes with StatReloader
+INFO 2023-10-02 13:49:20,647 basehttp 24688 31008 "GET / HTTP/1.1" 200 245
+INFO 2023-10-02 13:49:24,885 basehttp 24688 31008 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 13:49:49,318 basehttp 24688 31008 "POST /product/add/ HTTP/1.1" 200 1517
+INFO 2023-10-02 13:52:09,216 basehttp 24688 31008 "POST /product/add/ HTTP/1.1" 200 1514
+INFO 2023-10-02 13:53:19,449 basehttp 24688 31008 "POST /product/add/ HTTP/1.1" 200 1514
+INFO 2023-10-02 13:53:59,550 autoreload 24688 24820 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-10-02 13:54:00,361 autoreload 35208 1508 Watching for file changes with StatReloader
+INFO 2023-10-02 13:54:16,622 basehttp 35208 19264 "POST /product/add/ HTTP/1.1" 200 1514
+INFO 2023-10-02 13:54:48,294 basehttp 35208 19264 "POST /product/add/ HTTP/1.1" 200 1514
+INFO 2023-10-02 13:57:16,570 autoreload 35208 1508 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py changed, reloading.
+INFO 2023-10-02 13:57:17,315 autoreload 11100 30804 Watching for file changes with StatReloader
+INFO 2023-10-02 13:57:20,846 basehttp 11100 33904 "GET / HTTP/1.1" 200 245
+INFO 2023-10-02 13:57:24,339 basehttp 11100 33904 "GET /product/add/ HTTP/1.1" 200 1466
+INFO 2023-10-02 13:57:49,066 basehttp 11100 33904 "POST /product/add/ HTTP/1.1" 200 1514
+INFO 2023-10-02 14:16:31,672 basehttp 11100 34992 "POST /product/add/ HTTP/1.1" 200 1514

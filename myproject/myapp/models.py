@@ -16,8 +16,9 @@ class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=8, decimal_places=2)
-    count = models.IntegerField(default=1)
+    count = models.IntegerField(default=0)
     date_add = models.DateField(auto_now_add=True)
+    image = models.ImageField()
 
     def __str__(self):
         return f'{self.name}'
@@ -29,7 +30,3 @@ class Order(models.Model):
     date_ordered = models.DateTimeField(auto_now_add=True)
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
 
-
-class OrderProducts(models.Model):
-    order_id = models.ForeignKey(Order, on_delete=models.CASCADE)
-    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)

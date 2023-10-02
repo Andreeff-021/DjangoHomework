@@ -1,6 +1,8 @@
 from django.shortcuts import render, get_object_or_404
-from .models import User, Order
+from .forms import UserForm, ProductForm
+from .models import User, Order, Product
 from datetime import datetime, timedelta
+from django.core.files.storage import FileSystemStorage
 
 
 def index(request):
@@ -46,3 +48,49 @@ def order_last_days(request, user_id):
                "user": user,
                }
     return render(request, 'myapp/orders_last_days.html', context)
+
+
+def add_user(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST)
+        message = 'Ошибка в данных'
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            email = form.cleaned_data['email']
+            phone = form.cleaned_data['phone']
+            address = form.cleaned_data['address']
+            user = User(username=username,
+                        email=email,
+                        phone=phone,
+                        address=address,
+                        )
+            user.save()
+            message = 'Пользователь сохранён'
+    else:
+        form = UserForm()
+        message = 'Введите данные'
+    return render(request, 'myapp/add_user_form.html', {'form': form, 'message': message})
+
+
+def add_product(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        message = 'Ошибка в данных'
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            count = form.cleaned_data['count']
+            image = form.cleaned_data['image']
+            product = Product(name=name,
+                              description=description,
+                              price=price,
+                              count=count,
+                              image=image,
+                              )
+            product.save()
+            message = 'Товар сохранён'
+    else:
+        form = ProductForm()
+        message = 'Введите данные товара'
+    return render(request, 'myapp/add_product_form.html', {'form': form, 'message': message})
