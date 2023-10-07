@@ -27,9 +27,10 @@ class Product(models.Model):
     quantity = models.PositiveSmallIntegerField(default=0)
     date_added = models.DateTimeField(auto_now_add=True)
     rating = models.DecimalField(default=5.0, max_digits=3, decimal_places=2)
+    image = models.ImageField(upload_to='')
 
     def __str__(self):
-        return f'{self.name}'
+        return self.image
 
 
 class Order(models.Model):

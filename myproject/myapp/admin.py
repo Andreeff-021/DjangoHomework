@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Product
+from .models import Category, Product, Order, User
 
 
 @admin.action(description="Сбросить количество в ноль")
@@ -15,38 +15,40 @@ class ProductAdmin(admin.ModelAdmin):
     search_help_text = 'Поиск по полю Описание продукта (description)'
     actions = [reset_quantity]
     # fields = ['name', 'description', 'category', 'date_added', 'rating']
-    readonly_fields = ['date_added', 'rating']
-    fieldsets = [
-        (
-            'Название',
-            {
-                'classes': ['wide'],
-                'fields': ['name'],
-            },
-        ),
-        (
-            'Подробности',
-            {
-                'classes': ['collapse'],
-                'description': 'Категория товара и его подробное описание',
-                'fields': ['category', 'description'],
-            },
-        ),
-        (
-            'Бухгалтерия',
-            {
-                'fields': ['price', 'quantity'],
-            }
-        ),
-        (
-            'Рейтинг и прочее',
-            {
-                'description': 'Рейтинг сформирован автоматически на основе оценок покупателей',
-                'fields': ['rating', 'date_added'],
-            }
-        ),
-    ]
+    # readonly_fields = ['date_added', 'rating']
+    # fieldsets = [
+    #     (
+    #         'Название',
+    #         {
+    #             'classes': ['wide'],
+    #             'fields': ['name'],
+    #         },
+    #     ),
+    #     (
+    #         'Подробности',
+    #         {
+    #             'classes': ['collapse'],
+    #             'description': 'Категория товара и его подробное описание',
+    #             'fields': ['category', 'description'],
+    #         },
+    #     ),
+    #     (
+    #         'Бухгалтерия',
+    #         {
+    #             'fields': ['price', 'quantity'],
+    #         }
+    #     ),
+    #     (
+    #         'Рейтинг и прочее',
+    #         {
+    #             'description': 'Рейтинг сформирован автоматически на основе оценок покупателей',
+    #             'fields': ['rating', 'date_added'],
+    #         }
+    #     ),
+    # ]
 
 
 admin.site.register(Category)
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Order)
+admin.site.register(User)
