@@ -1,5 +1,8 @@
 from django.urls import path
 from .views import index, about, orders, order_last_days, add_user, add_product
+from django.conf.urls.static import static
+from django.conf import settings
+
 
 urlpatterns = [
     path('', index, name='index'),
@@ -9,3 +12,5 @@ urlpatterns = [
     path('user/add/', add_user, name='add_user'),
     path('product/add/', add_product, name='add_product'),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -30,7 +30,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='')
 
     def __str__(self):
-        return self.image
+        return self.name
 
 
 class Order(models.Model):

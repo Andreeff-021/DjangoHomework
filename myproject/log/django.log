@@ -4240,3 +4240,492 @@ WARNING 2023-10-07 15:13:24,703 log 32908 26900 Not Found: /product_nqhY8u9.jpg
 WARNING 2023-10-07 15:13:24,705 basehttp 32908 26900 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
 WARNING 2023-10-07 15:13:24,708 log 32908 36408 Not Found: /product_xLM9PcP.jpg
 WARNING 2023-10-07 15:13:24,712 basehttp 32908 36408 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 15:57:39,076 autoreload 41944 38924 Watching for file changes with StatReloader
+INFO 2023-10-07 15:57:40,750 basehttp 41944 39420 "GET / HTTP/1.1" 200 2704
+WARNING 2023-10-07 15:57:40,901 log 41944 40520 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 15:57:40,910 basehttp 41944 40520 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:40,924 log 41944 39420 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 15:57:40,980 basehttp 41944 39420 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:40,991 log 41944 16080 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 15:57:40,998 log 41944 40296 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 15:57:41,001 log 41944 19544 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 15:57:41,007 basehttp 41944 16080 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,014 basehttp 41944 40296 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,024 log 41944 39304 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 15:57:41,024 basehttp 41944 19544 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,044 log 41944 40520 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 15:57:41,046 basehttp 41944 39304 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,060 log 41944 39420 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 15:57:41,066 basehttp 41944 40520 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,075 log 41944 16080 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 15:57:41,077 basehttp 41944 39420 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 15:57:41,080 basehttp 41944 16080 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 16:00:42,492 basehttp 41944 32812 "GET / HTTP/1.1" 200 2704
+WARNING 2023-10-07 16:00:42,584 log 41944 32812 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 16:00:42,587 log 41944 19804 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 16:00:42,589 basehttp 41944 19804 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,589 basehttp 41944 32812 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,617 log 41944 41668 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 16:00:42,623 log 41944 22208 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 16:00:42,630 basehttp 41944 41668 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,632 log 41944 38372 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 16:00:42,632 basehttp 41944 22208 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,640 basehttp 41944 38372 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,645 log 41944 36276 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 16:00:42,645 basehttp 41944 36276 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,659 log 41944 19804 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 16:00:42,661 log 41944 32812 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 16:00:42,661 basehttp 41944 19804 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,661 log 41944 41668 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 16:00:42,669 basehttp 41944 32812 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:00:42,669 basehttp 41944 41668 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 16:01:04,956 basehttp 41944 41012 "GET / HTTP/1.1" 200 2533
+ERROR 2023-10-07 16:02:23,398 log 41944 16908 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\views.py", line 14, in index
+    return render(request, 'myapp/index.html', context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'media' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-07 16:02:23,398 basehttp 41944 16908 "GET / HTTP/1.1" 500 150171
+INFO 2023-10-07 16:02:38,347 basehttp 41944 12908 "GET / HTTP/1.1" 200 2704
+WARNING 2023-10-07 16:02:38,431 log 41944 12908 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 16:02:38,448 basehttp 41944 12908 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,469 log 41944 19632 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 16:02:38,483 log 41944 4892 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 16:02:38,505 log 41944 2532 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 16:02:38,507 log 41944 37240 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 16:02:38,510 basehttp 41944 19632 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,518 log 41944 12908 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 16:02:38,518 basehttp 41944 4892 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,524 log 41944 34064 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 16:02:38,524 basehttp 41944 2532 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,534 basehttp 41944 37240 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,535 basehttp 41944 12908 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,543 basehttp 41944 34064 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,566 log 41944 19632 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 16:02:38,567 basehttp 41944 19632 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:02:38,570 log 41944 4892 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 16:02:38,573 basehttp 41944 4892 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 16:13:38,473 basehttp 41944 36372 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-07 16:13:38,564 log 41944 36372 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 16:13:38,573 basehttp 41944 36372 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,576 log 41944 24876 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 16:13:38,577 basehttp 41944 24876 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,577 log 41944 26248 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 16:13:38,577 log 41944 32680 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 16:13:38,577 basehttp 41944 26248 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,577 log 41944 36148 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 16:13:38,595 basehttp 41944 32680 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,598 log 41944 40692 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 16:13:38,598 basehttp 41944 36148 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,598 basehttp 41944 40692 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,611 log 41944 36372 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 16:13:38,611 log 41944 24876 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 16:13:38,611 basehttp 41944 36372 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,611 basehttp 41944 24876 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 16:13:38,611 log 41944 26248 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 16:13:38,611 basehttp 41944 26248 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 21:32:29,160 basehttp 41944 17576 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-07 21:32:29,276 log 41944 17576 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 21:32:29,277 log 41944 25968 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 21:32:29,279 basehttp 41944 17576 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,280 log 41944 35092 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 21:32:29,283 log 41944 38212 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 21:32:29,285 basehttp 41944 25968 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,287 log 41944 34524 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 21:32:29,289 basehttp 41944 35092 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,291 basehttp 41944 34524 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,295 basehttp 41944 38212 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,297 log 41944 37764 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 21:32:29,305 basehttp 41944 37764 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,323 log 41944 17576 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 21:32:29,337 log 41944 25968 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 21:32:29,338 basehttp 41944 17576 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,338 basehttp 41944 25968 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:32:29,338 log 41944 35092 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 21:32:29,338 basehttp 41944 35092 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 21:38:54,987 autoreload 16620 28784 Watching for file changes with StatReloader
+INFO 2023-10-07 21:38:58,513 basehttp 16620 26912 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-07 21:38:58,598 log 16620 30424 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 21:38:58,616 log 16620 26912 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 21:38:58,617 basehttp 16620 30424 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,624 basehttp 16620 26912 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,676 log 16620 41228 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 21:38:58,677 log 16620 41612 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 21:38:58,685 log 16620 30424 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 21:38:58,687 basehttp 16620 41228 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,689 basehttp 16620 41612 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,696 log 16620 39740 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 21:38:58,698 basehttp 16620 30424 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,709 basehttp 16620 39740 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,711 log 16620 1424 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 21:38:58,713 log 16620 26912 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 21:38:58,719 basehttp 16620 1424 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,719 basehttp 16620 26912 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 21:38:58,725 log 16620 41228 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 21:38:58,726 basehttp 16620 41228 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+INFO 2023-10-07 21:42:10,142 basehttp 16620 22996 "GET /admin/ HTTP/1.1" 200 10771
+INFO 2023-10-07 21:42:12,138 basehttp 16620 22996 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+INFO 2023-10-07 21:42:12,206 basehttp 16620 22996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-07 21:42:14,443 log 16620 38972 Internal Server Error: /admin/myapp/product/21/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type ImageFieldFile)
+ERROR 2023-10-07 21:42:14,459 basehttp 16620 38972 "GET /admin/myapp/product/21/change/ HTTP/1.1" 500 107043
+INFO 2023-10-07 21:42:18,732 basehttp 16620 38972 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+ERROR 2023-10-07 21:42:24,489 log 16620 39952 Internal Server Error: /admin/myapp/product/16/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type ImageFieldFile)
+ERROR 2023-10-07 21:42:24,489 basehttp 16620 39952 "GET /admin/myapp/product/16/change/ HTTP/1.1" 500 107043
+INFO 2023-10-07 21:42:31,822 basehttp 16620 39952 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+INFO 2023-10-07 21:44:32,128 autoreload 11724 21040 Watching for file changes with StatReloader
+INFO 2023-10-07 21:44:35,951 basehttp 11724 1424 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+INFO 2023-10-07 21:44:36,008 basehttp 11724 1424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-07 21:44:37,079 log 11724 1424 Internal Server Error: /admin/myapp/product/21/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type ImageFieldFile)
+ERROR 2023-10-07 21:44:37,082 basehttp 11724 1424 "GET /admin/myapp/product/21/change/ HTTP/1.1" 500 107043
+INFO 2023-10-07 21:44:39,378 basehttp 11724 1424 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+ERROR 2023-10-07 21:45:22,779 log 11724 41880 Internal Server Error: /admin/myapp/product/17/change/
+Traceback (most recent call last):
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\andre\PycharmProjects\DjangoHomework\venv\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type ImageFieldFile)
+ERROR 2023-10-07 21:45:22,782 basehttp 11724 41880 "GET /admin/myapp/product/17/change/ HTTP/1.1" 500 107043
+INFO 2023-10-07 21:45:44,244 autoreload 11724 21040 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\models.py changed, reloading.
+INFO 2023-10-07 21:45:44,948 autoreload 39352 41216 Watching for file changes with StatReloader
+INFO 2023-10-07 21:45:47,606 basehttp 39352 25940 "GET /admin/myapp/product/ HTTP/1.1" 200 15767
+INFO 2023-10-07 21:45:49,060 basehttp 39352 25940 "GET /admin/myapp/product/21/change/ HTTP/1.1" 200 15118
+INFO 2023-10-07 21:45:49,129 basehttp 39352 25940 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-07 21:45:59,367 log 39352 25940 Not Found: /media/product_qSAytiB.jpg
+WARNING 2023-10-07 21:45:59,368 basehttp 39352 25940 "GET /media/product_qSAytiB.jpg HTTP/1.1" 404 3231
+INFO 2023-10-07 21:59:19,473 autoreload 39352 41216 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-07 22:00:13,302 autoreload 35484 1508 Watching for file changes with StatReloader
+WARNING 2023-10-07 22:00:19,620 log 35484 24940 Not Found: /media/product_qSAytiB.jpg
+WARNING 2023-10-07 22:00:19,621 basehttp 35484 24940 "GET /media/product_qSAytiB.jpg HTTP/1.1" 404 3231
+INFO 2023-10-07 22:00:21,533 basehttp 35484 34964 "GET /admin/myapp/product/21/change/ HTTP/1.1" 200 15118
+INFO 2023-10-07 22:00:29,264 basehttp 35484 34964 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-07 22:00:29,376 log 35484 34964 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-07 22:00:29,376 basehttp 35484 34964 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,376 log 35484 32196 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-07 22:00:29,376 log 35484 39420 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-07 22:00:29,376 basehttp 35484 32196 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,387 basehttp 35484 39420 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,386 log 35484 8064 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-07 22:00:29,394 log 35484 28348 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-07 22:00:29,394 log 35484 35896 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-07 22:00:29,406 basehttp 35484 8064 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,407 basehttp 35484 35896 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,407 basehttp 35484 28348 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,424 log 35484 34964 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-07 22:00:29,424 log 35484 39420 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-07 22:00:29,424 basehttp 35484 34964 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,424 basehttp 35484 39420 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-07 22:00:29,424 log 35484 32196 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-07 22:00:29,424 basehttp 35484 32196 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+INFO 2023-10-08 17:53:33,511 autoreload 18140 37932 Watching for file changes with StatReloader
+INFO 2023-10-08 17:53:35,303 basehttp 18140 31260 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 17:53:35,460 log 18140 31260 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 17:53:35,462 log 18140 32216 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 17:53:35,464 log 18140 19860 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 17:53:35,465 log 18140 38584 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 17:53:35,466 log 18140 33120 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 17:53:35,468 log 18140 38364 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 17:53:35,468 basehttp 18140 31260 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,468 basehttp 18140 32216 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,469 basehttp 18140 19860 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,470 basehttp 18140 38584 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,471 basehttp 18140 33120 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,471 basehttp 18140 38364 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,501 log 18140 19860 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 17:53:35,503 log 18140 32216 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 17:53:35,503 basehttp 18140 19860 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,504 log 18140 31260 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 17:53:35,505 basehttp 18140 32216 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3213
+WARNING 2023-10-08 17:53:35,505 basehttp 18140 31260 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3213
+INFO 2023-10-08 18:18:10,446 autoreload 18140 37932 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:18:12,605 autoreload 32060 28356 Watching for file changes with StatReloader
+INFO 2023-10-08 18:18:37,712 autoreload 32060 28356 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:18:38,658 autoreload 19916 28284 Watching for file changes with StatReloader
+INFO 2023-10-08 18:19:54,273 autoreload 19916 28284 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:19:54,974 autoreload 28060 21776 Watching for file changes with StatReloader
+INFO 2023-10-08 18:19:56,812 basehttp 28060 35044 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 18:19:56,970 log 28060 35044 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 18:19:56,982 log 28060 28320 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 18:19:56,986 basehttp 28060 35044 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:56,987 basehttp 28060 28320 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:56,991 log 28060 35860 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 18:19:56,993 log 28060 26388 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 18:19:56,994 basehttp 28060 35860 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:56,999 log 28060 10620 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 18:19:57,006 log 28060 6184 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 18:19:57,019 basehttp 28060 26388 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:57,025 basehttp 28060 6184 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:57,025 basehttp 28060 10620 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:57,046 log 28060 28320 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 18:19:57,049 log 28060 35044 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 18:19:57,051 basehttp 28060 28320 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:57,052 basehttp 28060 35044 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:19:57,057 log 28060 35860 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 18:19:57,074 basehttp 28060 35860 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3560
+INFO 2023-10-08 18:21:03,246 basehttp 28060 26444 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 18:21:03,311 log 28060 26444 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 18:21:03,325 basehttp 28060 26444 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,359 log 28060 19732 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 18:21:03,375 basehttp 28060 19732 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,385 log 28060 26444 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 18:21:03,390 basehttp 28060 26444 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,394 log 28060 21068 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 18:21:03,404 log 28060 16516 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 18:21:03,406 basehttp 28060 21068 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,412 log 28060 35944 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 18:21:03,420 log 28060 41964 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 18:21:03,422 basehttp 28060 16516 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,424 basehttp 28060 35944 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,424 basehttp 28060 41964 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,459 log 28060 26444 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 18:21:03,463 log 28060 19732 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 18:21:03,465 basehttp 28060 26444 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:21:03,467 basehttp 28060 19732 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3560
+INFO 2023-10-08 18:23:50,063 autoreload 28060 21776 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:23:50,993 autoreload 33328 33692 Watching for file changes with StatReloader
+INFO 2023-10-08 18:24:26,038 basehttp 33328 9716 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 18:24:26,115 log 33328 9716 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 18:24:26,117 basehttp 33328 9716 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,197 log 33328 9716 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 18:24:26,200 basehttp 33328 9716 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,202 log 33328 4076 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 18:24:26,206 log 33328 35416 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 18:24:26,208 basehttp 33328 4076 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,218 log 33328 26336 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 18:24:26,220 basehttp 33328 35416 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,220 basehttp 33328 26336 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,220 log 33328 28316 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 18:24:26,229 log 33328 8612 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 18:24:26,234 basehttp 33328 28316 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,236 basehttp 33328 8612 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,239 log 33328 4076 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 18:24:26,239 log 33328 9716 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 18:24:26,239 basehttp 33328 4076 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3560
+WARNING 2023-10-08 18:24:26,239 basehttp 33328 9716 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3560
+INFO 2023-10-08 18:24:27,275 autoreload 33328 33692 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:24:27,953 autoreload 40656 14484 Watching for file changes with StatReloader
+INFO 2023-10-08 18:24:29,411 basehttp 40656 3360 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 18:24:29,507 log 40656 3360 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 18:24:29,511 basehttp 40656 3360 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,514 log 40656 27628 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 18:24:29,518 basehttp 40656 27628 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,529 log 40656 17384 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 18:24:29,532 log 40656 21780 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 18:24:29,533 basehttp 40656 17384 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,533 log 40656 16644 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 18:24:29,533 basehttp 40656 21780 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,546 log 40656 8708 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 18:24:29,549 basehttp 40656 16644 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,549 basehttp 40656 8708 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,563 log 40656 3360 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 18:24:29,564 basehttp 40656 3360 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,566 log 40656 27628 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 18:24:29,566 basehttp 40656 27628 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3386
+WARNING 2023-10-08 18:24:29,566 log 40656 21780 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 18:24:29,566 basehttp 40656 21780 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3386
+INFO 2023-10-08 18:24:58,143 autoreload 40656 14484 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:24:58,931 autoreload 35692 25808 Watching for file changes with StatReloader
+INFO 2023-10-08 18:28:55,558 autoreload 35692 25808 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-08 18:28:56,287 autoreload 22744 14684 Watching for file changes with StatReloader
+INFO 2023-10-08 18:29:21,075 autoreload 22744 14684 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-08 18:29:21,688 autoreload 16140 21788 Watching for file changes with StatReloader
+INFO 2023-10-08 18:29:23,179 basehttp 16140 11284 "GET / HTTP/1.1" 200 2785
+WARNING 2023-10-08 18:29:23,271 log 16140 11284 Not Found: /product_mgcNvFM.jpg
+WARNING 2023-10-08 18:29:23,271 basehttp 16140 11284 "GET /product_mgcNvFM.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,336 log 16140 16900 Not Found: /product_xWOamHT.jpg
+WARNING 2023-10-08 18:29:23,348 basehttp 16140 16900 "GET /product_xWOamHT.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,365 log 16140 11284 Not Found: /product_kxyVKr8.jpg
+WARNING 2023-10-08 18:29:23,369 basehttp 16140 11284 "GET /product_kxyVKr8.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,372 log 16140 36696 Not Found: /product_qSAytiB.jpg
+WARNING 2023-10-08 18:29:23,375 log 16140 20708 Not Found: /product_8rl9i0t.jpg
+WARNING 2023-10-08 18:29:23,377 log 16140 13040 Not Found: /product_ckfuDDe.jpg
+WARNING 2023-10-08 18:29:23,382 log 16140 18148 Not Found: /product_zX2IRGn.jpg
+WARNING 2023-10-08 18:29:23,382 basehttp 16140 36696 "GET /product_qSAytiB.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,382 basehttp 16140 20708 "GET /product_8rl9i0t.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,382 basehttp 16140 18148 "GET /product_zX2IRGn.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,382 basehttp 16140 13040 "GET /product_ckfuDDe.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,394 log 16140 16900 Not Found: /product_xLM9PcP.jpg
+WARNING 2023-10-08 18:29:23,394 basehttp 16140 16900 "GET /product_xLM9PcP.jpg HTTP/1.1" 404 3339
+WARNING 2023-10-08 18:29:23,394 log 16140 11284 Not Found: /product_nqhY8u9.jpg
+WARNING 2023-10-08 18:29:23,394 basehttp 16140 11284 "GET /product_nqhY8u9.jpg HTTP/1.1" 404 3339
+INFO 2023-10-08 18:30:34,351 autoreload 14668 11672 Watching for file changes with StatReloader
+INFO 2023-10-08 18:30:36,382 basehttp 14668 772 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:30:36,811 basehttp 14668 772 "GET /media/product_mgcNvFM.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,818 basehttp 14668 772 "GET /media/product_zX2IRGn.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,840 basehttp 14668 772 "GET /media/product_xLM9PcP.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,850 basehttp 14668 772 "GET /media/product_nqhY8u9.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,894 basehttp 14668 29348 "GET /media/product_xWOamHT.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,924 basehttp 14668 10812 "GET /media/product_8rl9i0t.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,964 basehttp 14668 40464 "GET /media/product_ckfuDDe.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,972 basehttp 14668 9788 "GET /media/product_kxyVKr8.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:30:36,976 basehttp 14668 35028 "GET /media/product_qSAytiB.jpg HTTP/1.1" 200 25227
+INFO 2023-10-08 18:31:26,800 autoreload 14668 11672 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-08 18:31:27,679 autoreload 25948 37520 Watching for file changes with StatReloader
+INFO 2023-10-08 18:31:28,235 basehttp 25948 21908 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:29,904 basehttp 25948 21908 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:40,814 autoreload 25948 37520 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:31:41,671 autoreload 21464 9696 Watching for file changes with StatReloader
+INFO 2023-10-08 18:31:41,907 basehttp 21464 33332 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:42,777 basehttp 21464 33332 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:43,961 basehttp 21464 33332 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:44,825 basehttp 21464 33332 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:31:56,781 autoreload 21464 9696 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:31:57,520 autoreload 14228 41756 Watching for file changes with StatReloader
+INFO 2023-10-08 18:32:07,957 autoreload 15748 30864 Watching for file changes with StatReloader
+INFO 2023-10-08 18:32:11,741 basehttp 15748 38768 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:32:28,520 autoreload 15748 30864 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-08 18:32:29,297 autoreload 5756 16996 Watching for file changes with StatReloader
+INFO 2023-10-08 18:33:08,283 autoreload 5756 16996 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:33:09,044 autoreload 28788 11056 Watching for file changes with StatReloader
+INFO 2023-10-08 18:33:32,573 autoreload 28788 11056 C:\Users\andre\PycharmProjects\DjangoHomework\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-08 18:33:33,556 autoreload 2176 34944 Watching for file changes with StatReloader
+INFO 2023-10-08 18:33:33,918 basehttp 2176 27392 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:33:56,253 basehttp 2176 27392 "GET / HTTP/1.1" 200 2731
+INFO 2023-10-08 18:34:09,199 basehttp 2176 27392 "GET / HTTP/1.1" 200 2848
+INFO 2023-10-08 18:34:44,658 basehttp 2176 27392 "GET / HTTP/1.1" 200 2713
+INFO 2023-10-08 18:35:18,305 basehttp 2176 27392 "GET / HTTP/1.1" 200 2965
+INFO 2023-10-08 18:35:43,031 basehttp 2176 27392 "GET / HTTP/1.1" 200 2956
+INFO 2023-10-08 18:36:31,847 basehttp 2176 27392 "GET / HTTP/1.1" 200 2956
+INFO 2023-10-08 18:37:10,180 basehttp 2176 27392 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-08 18:37:10,196 basehttp 2176 35684 "GET /about/ HTTP/1.1" 200 424
+INFO 2023-10-08 18:37:15,050 basehttp 2176 35684 "GET / HTTP/1.1" 200 2956
+INFO 2023-10-08 18:38:57,755 basehttp 2176 35684 "GET / HTTP/1.1" 200 3023
+INFO 2023-10-08 18:39:29,104 basehttp 2176 17804 "GET / HTTP/1.1" 200 2956
