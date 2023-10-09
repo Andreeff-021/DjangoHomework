@@ -29,8 +29,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'username.pythonanywhere.com',
+    'andreeff021.pythonanywhere.com',
 ]
 
 # Application definition
@@ -81,10 +80,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '<your_username>$<your_database_name>',
-        'USER': '<your_username>',
+        'NAME': 'andreeff021$default',
+        'USER': 'andreeff021',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': '<your_mysql_hostname>',
+        'HOST': 'andreeff021.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
